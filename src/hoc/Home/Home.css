@@ -2,4 +2,53 @@
     background-color:lightblue;
     width:100vw;
     height:100vh;
+    margin:0;
+    padding:0;
+
 }
+
+.Banner{
+   height:40%;
+}
+
+.Container{
+    height:100%;
+    border: 2px solid rgb(0,0,0,0.5); 
+    overflow-x: hidden;
+}
+
+.Container, .Banner{
+    position:relative;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color:lightblue;
+    overflow:hidden;
+}
+
+.Title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size:60px;
+
+}
+
+.Text{
+    font-size:18px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+  
+}
+
+
+
+
+

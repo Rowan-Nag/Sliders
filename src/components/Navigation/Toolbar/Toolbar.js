@@ -11,8 +11,12 @@ class Toolbar extends Component {
         super(props);
         this.state = {
             auth:true,
+          
         }
     }
+
+  
+        
 
     render() {
         return (
