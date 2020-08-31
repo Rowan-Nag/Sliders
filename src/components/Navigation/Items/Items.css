@@ -1,0 +1,12 @@
+.NavigationItems {
+    margin-right:auto;
+    margin-top:auto;
+     padding: auto;
+     display: flex;
+     flex-flow: row;
+     height: 100%;
+     position:relative;
+     right:20%;   
+ }
+ 
+ 
