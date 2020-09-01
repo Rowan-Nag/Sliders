@@ -30,16 +30,16 @@ export const _add = (path,data, userId = null)=>{
 export const _get = (path, userId =null) =>{
     let data;
    /* let collectionRef = await firebase.database().ref('users/' + userId + '/collection/');
+   let wants = [];
     await collectionRef.on('value', async (snapshot)=>{
         let childSnapshot = snapshot.val();
-        let tempCollection= [];
-        let exchangeCards = [];
         if (childSnapshot){
             Object.values(childSnapshot).map((wanted)=>{
                         wants.push(wanted.name);
                         
             });
         };
+        data = wants;
     };*/
     return async dispatch =>{
 

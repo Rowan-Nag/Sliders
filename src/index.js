@@ -31,12 +31,12 @@ const store = createStore(rootReducer, composeEnhancers(applyMiddleware(thunk)))
 //FIREBASE ##################
 
 /*const config = {
-  apiKey: "AIzaSyAGSaOGP5v7VpJK2toOY9JDOGXiqn8lfFs",
-  authDomain: "crack-a-pack.firebaseapp.com",
-  databaseURL: "https://crack-a-pack.firebaseio.com",
-  projectId: "crack-a-pack",
-  storageBucket: "crack-a-pack.appspot.com",
-  messagingSenderId: "473958129329"
+  apiKey: "yfsyfdffjyfjyfr5ygjgdjkgx",
+  authDomain: "sample.firebaseapp.com",
+  databaseURL: "https://website.firebaseio.com",
+  projectId: "sample",
+  storageBucket: "sample.appspot.com",
+  messagingSenderId: "5364675734653"
 };
 firebase.initializeApp(config);
 */
