@@ -1,0 +1,12 @@
+body{
+    background-color: grey;
+}
+.Signin{
+    background-color:lightblue;
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+    margin-top:25%;
+    border-radius: 15px;
+    
+}

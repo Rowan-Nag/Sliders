@@ -1,0 +1,17 @@
+h2{
+    text-align: center;
+}
+#c{
+    padding: auto;
+    background-color: white;
+    border: 1px solid black;
+}
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.playerImage{
+    width:400px;
+    height: 400px;
+}
